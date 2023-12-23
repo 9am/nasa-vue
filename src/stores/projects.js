@@ -2,7 +2,7 @@ import axios from 'axios'
 import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 
-// axios.defaults.baseURL = 'http://nasa-api-proxy.deno.dev'
+axios.defaults.baseURL = 'https://nasa-api-proxy.deno.dev'
 
 const fetchProjects = ({ updatedSince = '' }) =>
   axios.get('/api/projects', {
@@ -13,7 +13,7 @@ const fetchProjectByID = ({ id = '0' }, options = {}) => axios.get(`/api/project
 
 export const usePagination = defineStore('projectsPagination', () => {
   const curr = ref(1)
-  const size = ref(5)
+  const size = ref(10)
   const total = computed(() => {
     const projects = useProjects()
     return projects.len
@@ -68,6 +68,7 @@ export const useProjects = defineStore('projects', () => {
           return item.projectId
         }) ?? []
       pa.$reset()
+      error.value = null
     } catch (err) {
       error.value = err
     } finally {

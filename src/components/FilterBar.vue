@@ -10,7 +10,7 @@ const props = defineProps({
 const emit = defineEmits(['onFilter'])
 
 const format = 'YYYY-MM-DD'
-const date = ref(dayjs().subtract(2, 'days'))
+const date = ref(dayjs().subtract(7, 'days'))
 
 const onFilter = () => emit('onFilter', date.value.format(format))
 

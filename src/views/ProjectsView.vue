@@ -5,7 +5,7 @@ import { usePagination, useProjects } from '@/stores/projects'
 import FilterBar from '@/components/FilterBar.vue'
 import ProjectDetailView from './ProjectDetailView.vue'
 
-const pageOptions = ['10', '25', '50']
+const pageOptions = [10, 25, 50]
 const pageStore = usePagination()
 const { curr, total, size } = storeToRefs(pageStore)
 const store = useProjects()
