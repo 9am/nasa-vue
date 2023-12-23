@@ -1,0 +1,626 @@
+{
+  "project": {
+    "acronym": "CTE-TDEA",
+    "projectId": 146995,
+    "title": "CTE - Thermoplastics Development for Exploration",
+    "primaryTaxonomyNodes": [
+      {
+        "taxonomyNodeId": 10880,
+        "taxonomyRootId": 8816,
+        "parentNodeId": 10879,
+        "level": 3,
+        "code": "TX12.4.1",
+        "title": "Manufacturing Processes",
+        "definition": "This area covers innovative physical manufacturing processes for rapid production, reduced cost, increase accuracy, and defect reduction.",
+        "exampleTechnologies": "Additive manufacturing of metallics and nanofiber/fiber /ceramic matrix based composites, especially for large structures; in-space fabrication, assembly and repair; advanced casting and injection molding of metal components, including amorphous metals, metal matrix composites and high-strength aluminum alloys; advanced subtractive manufacturing processes including wire-Electrical Discharge Machining (EDM), water jetting and surface finishing; advanced laminate or sheet metal fabrication.",
+        "hasChildren": false,
+        "hasInteriorContent": true
+      }
+    ],
+    "additionalTaxonomyNodes": [
+      {
+        "taxonomyNodeId": 10532,
+        "taxonomyRootId": 8816,
+        "level": 1,
+        "code": "TX01",
+        "title": "Propulsion Systems",
+        "definition": "This section addresses technologies for chemical and non-chemical propulsion systems or their related ancillary systems. These propulsion systems may be used for aeronautic propulsion, space launch propulsion, or in-space propulsion applications.",
+        "hasChildren": false,
+        "hasInteriorContent": true
+      },
+      {
+        "taxonomyNodeId": 10862,
+        "taxonomyRootId": 8816,
+        "parentNodeId": 10855,
+        "level": 3,
+        "code": "TX12.1.7",
+        "title": "Special Materials",
+        "definition": "This area covers materials with specialized functions.",
+        "exampleTechnologies": "Adhesive materials concepts, nanofiltering and fluid barrier materials, porous/non-porous materials, optically transparent window materials, materials with negative refractive index, aerogels, metamaterials, topological materials, functionally graded materials, metallic glasses, nanocrystalline metals, materials with controllable CTE, multifunctional laminates, shape memory alloys, high entropy alloys, multi-functional materials",
+        "hasChildren": false,
+        "hasInteriorContent": true
+      },
+      {
+        "taxonomyNodeId": 10610,
+        "taxonomyRootId": 8816,
+        "level": 1,
+        "code": "TX04",
+        "title": "Robotic Systems",
+        "definition": "For human exploration, robots will be leveraged as precursor explorers preceding crewed missions, as crew helpers, as extravehicular activity (EVA) mobility aids, and as caretakers of assets left behind. For science exploration, robots will blaze new trails on distant and hostile worlds to better our understanding of the universe and to extend the reach of the human race. By expanding our planetary access capability, manipulating assets and resources, and understanding planetary bodies using remote and in-situ sensors, we can prepare planets for human arrival, support crews in-space operations, and manage assets left behind.",
+        "hasChildren": false,
+        "hasInteriorContent": true
+      },
+      {
+        "taxonomyNodeId": 10681,
+        "taxonomyRootId": 8816,
+        "level": 1,
+        "code": "TX06",
+        "title": "Human Health, Life Support, and Habitation Systems",
+        "definition": "This section covers technologies that are specific to the human element and directly affect crew needs for survival and wellbeing, including the environment to which the crew is exposed and interfaces that crewmembers encounter.",
+        "hasChildren": false,
+        "hasInteriorContent": true
+      }
+    ],
+    "startTrl": 3,
+    "currentTrl": 3,
+    "endTrl": 5,
+    "benefits": "<p> </p><p> </p><p>Thermoplastic composites have many benefits over traditional thermoset composites that can lead to simplified designs for lower cost and higher performance.  Thermoplastics are fully chemically reacted and processable with heat and pressure alone enabling shorter cycle time.</p><p>Thermoplastics can be reheated, remolded, and cooled as necessary without causing any chemical changes enabling reprocessing, and repurposing through disassembly and reassembly not possible with currently available thermoset materials.<br /> </p><p>Thermoplastic  joining processes are more straightforward than chemical bonding with reduced process steps than thermoset composites. The process steps reduced are those most often associated with poor bond reliability (i.e., surface preparation), thus thermoplastic composites processes may turn out to be more reliable.</p><p>Using thermoplastic material enables the ability to create large monolithic or unitized structures that are structurally efficient saving manufacturing time, part count, and weight.</p><p>Unitized thermoplastic structures with their fused parts can reduce certification requirements and conservatism.<br /> </p><p>The development and maturation of joining technologies for thermoplastic composites will benefit NASA's science and exploration missions where mass and performance optimized structures are critical.</p><p> </p><p> </p><p> </p><p><br /> </p>",
+    "description": "<p> </p><p>The Thermoplastics Development for Exploration Applications (TDEA) project is focusing on developing thermoplastic composite (TPC) joints for space structures by developing and maturing TPC materials, design capabilities, analysis tools and techniques, and manufacturing processes. The TDEA team has evaluated TPC material systems and performed an assessment of the current capabilities for the design, analysis, and manufacture of commercially available TPC material systems for large-scale space structures and on-orbit applications. TDEA is developing NASA's TPC processing and manufacturing capabilities, developing an understanding of advanced TPC joining technique(s) relevant to space environments and applicable to unitized and/or reconfigurable composite structures and advancing structural analysis capabilities for the design and analysis including failure prediction of TPCs including joints.</p><p>Composite materials enable NASA's science and exploration missions where lightweight, high-performance structural solutions are required. Currently composites are commonly manufactured with thermoset composite (TSC) materials that undergo a chemical reaction when heated and fully cured. Conventional thermosets cannot be remolded or remelted after the first cure. Interfaces must often contain mechanical fasteners which can adversely affect mass and alter structural performance. The performance of bonded TSC joints is also highly sensitive to surface preparation techniques and bonding processes. Programs are often not able to take advantage of the structural efficiencies offered by composite structures due to characterization and certification challenges, particularly with respect to joints.</p><p>Alternatively, thermoplastics are fully chemically reacted and can be reprocessed with heat and pressure alone. They can be remelted, remolded, and consolidated as necessary without causing any chemical changes, which makes their joining processes more straightforward. Unitizing structures with thermoplastic shows promise to increase structural efficiency and reduce mass. TPC material properties are sensitive to joining processes, so care must be taken to produce strong and reliable TPC joints. TDEA is focusing on TPC joints to create large monolithic structures that save on manufacturing time, part count, and weight.  Ultimately this could enable in space assembly and manufacturing of large monolithic space structures.<br /> </p><p> </p>",
+    "startYear": 2021,
+    "startMonth": 10,
+    "endYear": 2025,
+    "endMonth": 9,
+    "statusDescription": "Active",
+    "programDirectors": [
+      {
+        "contactId": 318856,
+        "canUserEdit": false,
+        "firstName": "Mary",
+        "lastName": "Werkheiser",
+        "fullName": "Mary J Werkheiser",
+        "fullNameInverted": "Werkheiser, Mary J",
+        "middleInitial": "J",
+        "primaryEmail": "niki.werkheiser@nasa.gov",
+        "publicEmail": true,
+        "nacontact": false
+      }
+    ],
+    "programExecutives": [
+      {
+        "contactId": 283169,
+        "canUserEdit": false,
+        "firstName": "Lanetra",
+        "lastName": "Tate",
+        "fullName": "Lanetra C Tate",
+        "fullNameInverted": "Tate, Lanetra C",
+        "middleInitial": "C",
+        "primaryEmail": "lanetra.c.tate@nasa.gov",
+        "publicEmail": true,
+        "nacontact": false
+      }
+    ],
+    "programManagers": [
+      {
+        "contactId": 1071309,
+        "canUserEdit": false,
+        "firstName": "Gary",
+        "lastName": "Meyering",
+        "fullName": "Gary F Meyering",
+        "fullNameInverted": "Meyering, Gary F",
+        "middleInitial": "F",
+        "primaryEmail": "gary.f.meyering@nasa.gov",
+        "publicEmail": true,
+        "nacontact": false
+      }
+    ],
+    "projectManagers": [
+      {
+        "contactId": 229377,
+        "canUserEdit": false,
+        "firstName": "John",
+        "lastName": "Fikes",
+        "fullName": "John C Fikes",
+        "fullNameInverted": "Fikes, John C",
+        "middleInitial": "C",
+        "primaryEmail": "john.fikes@nasa.gov",
+        "publicEmail": true,
+        "nacontact": false
+      }
+    ],
+    "website": "",
+    "libraryItems": [],
+    "transitions": [],
+    "responsibleMd": {
+      "acronym": "STMD",
+      "canUserEdit": false,
+      "city": "",
+      "external": false,
+      "linkCount": 0,
+      "organizationId": 4875,
+      "organizationName": "Space Technology Mission Directorate",
+      "organizationType": "NASA_Mission_Directorate",
+      "naorganization": false,
+      "organizationTypePretty": "NASA Mission Directorate"
+    },
+    "program": {
+      "acronym": "GCD",
+      "active": true,
+      "description": "<p>Solicit innovative ideas enabling new capabilities or radically altering current approaches to launch, build, and operate space systems.</p>",
+      "programId": 67,
+      "responsibleMd": {
+        "acronym": "STMD",
+        "canUserEdit": false,
+        "city": "",
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4875,
+        "organizationName": "Space Technology Mission Directorate",
+        "organizationType": "NASA_Mission_Directorate",
+        "naorganization": false,
+        "organizationTypePretty": "NASA Mission Directorate"
+      },
+      "responsibleMdId": 4875,
+      "stockImageFileId": 36652,
+      "title": "Game Changing Development"
+    },
+    "leadOrganization": {
+      "acronym": "MSFC",
+      "canUserEdit": false,
+      "city": "Huntsville",
+      "country": {
+        "abbreviation": "US",
+        "countryId": 236,
+        "name": "United States"
+      },
+      "countryId": 236,
+      "external": false,
+      "linkCount": 0,
+      "organizationId": 4854,
+      "organizationName": "Marshall Space Flight Center",
+      "organizationType": "NASA_Center",
+      "stateTerritory": {
+        "abbreviation": "AL",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "name": "Alabama",
+        "stateTerritoryId": 18
+      },
+      "stateTerritoryId": 18,
+      "naorganization": false,
+      "organizationTypePretty": "NASA Center"
+    },
+    "supportingOrganizations": [
+      {
+        "canUserEdit": false,
+        "city": "Columbus",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "external": true,
+        "linkCount": 0,
+        "organizationId": 8969,
+        "organizationName": "Agile Ultrasonics",
+        "organizationType": "Industry",
+        "stateTerritory": {
+          "abbreviation": "OH",
+          "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+          },
+          "countryId": 236,
+          "name": "Ohio",
+          "stateTerritoryId": 23
+        },
+        "stateTerritoryId": 23,
+        "naorganization": false,
+        "organizationTypePretty": "Industry"
+      },
+      {
+        "acronym": "GRC",
+        "canUserEdit": false,
+        "city": "Cleveland",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4860,
+        "organizationName": "Glenn Research Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+          "abbreviation": "OH",
+          "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+          },
+          "countryId": 236,
+          "name": "Ohio",
+          "stateTerritoryId": 23
+        },
+        "stateTerritoryId": 23,
+        "naorganization": false,
+        "organizationTypePretty": "NASA Center"
+      },
+      {
+        "acronym": "GSFC",
+        "canUserEdit": false,
+        "city": "Greenbelt",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4947,
+        "organizationName": "Goddard Space Flight Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+          "abbreviation": "MD",
+          "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+          },
+          "countryId": 236,
+          "name": "Maryland",
+          "stateTerritoryId": 3
+        },
+        "stateTerritoryId": 3,
+        "naorganization": false,
+        "organizationTypePretty": "NASA Center"
+      },
+      {
+        "acronym": "LaRC",
+        "canUserEdit": false,
+        "city": "Hampton",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "external": false,
+        "linkCount": 0,
+        "organizationId": 4852,
+        "organizationName": "Langley Research Center",
+        "organizationType": "NASA_Center",
+        "stateTerritory": {
+          "abbreviation": "VA",
+          "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+          },
+          "countryId": 236,
+          "name": "Virginia",
+          "stateTerritoryId": 7
+        },
+        "stateTerritoryId": 7,
+        "naorganization": false,
+        "organizationTypePretty": "NASA Center"
+      },
+      {
+        "canUserEdit": false,
+        "city": "Wichita",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "external": true,
+        "linkCount": 0,
+        "organizationId": 995,
+        "organizationName": "National Institute for Aviation Research",
+        "organizationType": "Academia",
+        "stateTerritory": {
+          "abbreviation": "KS",
+          "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+          },
+          "countryId": 236,
+          "name": "Kansas",
+          "stateTerritoryId": 48
+        },
+        "stateTerritoryId": 48,
+        "naorganization": false,
+        "organizationTypePretty": "Academia"
+      },
+      {
+        "canUserEdit": false,
+        "city": "Brussels",
+        "country": {
+          "abbreviation": "BE",
+          "countryId": 22,
+          "name": "Belgium"
+        },
+        "countryId": 22,
+        "external": true,
+        "linkCount": 0,
+        "organizationId": 789,
+        "organizationName": "Solvay",
+        "organizationType": "Industry",
+        "stateTerritory": {
+          "abbreviation": "",
+          "country": {
+            "abbreviation": "BE",
+            "countryId": 22,
+            "name": "Belgium"
+          },
+          "countryId": 22,
+          "name": "Outside the United States",
+          "stateTerritoryId": 60
+        },
+        "stateTerritoryId": 60,
+        "naorganization": false,
+        "organizationTypePretty": "Industry"
+      },
+      {
+        "canUserEdit": false,
+        "city": "",
+        "external": true,
+        "linkCount": 0,
+        "organizationId": 10043,
+        "organizationName": "Toray Composites",
+        "organizationType": "Industry",
+        "naorganization": false,
+        "organizationTypePretty": "Industry"
+      }
+    ],
+    "coFundingPartners": [
+      {
+        "canUserEdit": false,
+        "city": "Atchison",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "external": true,
+        "linkCount": 0,
+        "organizationId": 5776,
+        "organizationName": "Benedictine College",
+        "organizationType": "Academia",
+        "stateTerritory": {
+          "abbreviation": "KS",
+          "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+          },
+          "countryId": 236,
+          "name": "Kansas",
+          "stateTerritoryId": 48
+        },
+        "stateTerritoryId": 48,
+        "murepUnitId": 154712,
+        "naorganization": false,
+        "organizationTypePretty": "Academia"
+      },
+      {
+        "canUserEdit": false,
+        "city": "Boise",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "external": true,
+        "linkCount": 0,
+        "organizationId": 1154,
+        "organizationName": "Boise State University",
+        "organizationType": "Academia",
+        "stateTerritory": {
+          "abbreviation": "ID",
+          "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+          },
+          "countryId": 236,
+          "name": "Idaho",
+          "stateTerritoryId": 33
+        },
+        "stateTerritoryId": 33,
+        "murepUnitId": 142115,
+        "naorganization": false,
+        "organizationTypePretty": "Academia"
+      },
+      {
+        "canUserEdit": false,
+        "city": "Aiken",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "external": true,
+        "linkCount": 0,
+        "organizationId": 8547,
+        "organizationName": "University of South Carolina Aiken",
+        "organizationType": "Academia",
+        "stateTerritory": {
+          "abbreviation": "SC",
+          "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+          },
+          "countryId": 236,
+          "name": "South Carolina",
+          "stateTerritoryId": 14
+        },
+        "stateTerritoryId": 14,
+        "murepUnitId": 218645,
+        "naorganization": false,
+        "organizationTypePretty": "Academia"
+      },
+      {
+        "canUserEdit": false,
+        "city": "Hattiesburg",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "external": true,
+        "linkCount": 0,
+        "organizationId": 4180,
+        "organizationName": "University of Southern Mississippi",
+        "organizationType": "Academia",
+        "stateTerritory": {
+          "abbreviation": "MS",
+          "country": {
+            "abbreviation": "US",
+            "countryId": 236,
+            "name": "United States"
+          },
+          "countryId": 236,
+          "name": "Mississippi",
+          "stateTerritoryId": 41
+        },
+        "stateTerritoryId": 41,
+        "murepUnitId": 176372,
+        "naorganization": false,
+        "organizationTypePretty": "Academia"
+      }
+    ],
+    "statesWithWork": [
+      {
+        "abbreviation": "AL",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "name": "Alabama",
+        "stateTerritoryId": 18
+      },
+      {
+        "abbreviation": "CA",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "name": "California",
+        "stateTerritoryId": 59
+      },
+      {
+        "abbreviation": "IN",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "name": "Indiana",
+        "stateTerritoryId": 37
+      },
+      {
+        "abbreviation": "IA",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "name": "Iowa",
+        "stateTerritoryId": 57
+      },
+      {
+        "abbreviation": "KS",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "name": "Kansas",
+        "stateTerritoryId": 48
+      },
+      {
+        "abbreviation": "MD",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "name": "Maryland",
+        "stateTerritoryId": 3
+      },
+      {
+        "abbreviation": "OH",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "name": "Ohio",
+        "stateTerritoryId": 23
+      },
+      {
+        "abbreviation": "SC",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "name": "South Carolina",
+        "stateTerritoryId": 14
+      },
+      {
+        "abbreviation": "VA",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "name": "Virginia",
+        "stateTerritoryId": 7
+      },
+      {
+        "abbreviation": "WI",
+        "country": {
+          "abbreviation": "US",
+          "countryId": 236,
+          "name": "United States"
+        },
+        "countryId": 236,
+        "name": "Wisconsin",
+        "stateTerritoryId": 32
+      }
+    ],
+    "lastUpdated": "2023-12-21",
+    "releaseStatusString": "Released",
+    "viewCount": 4,
+    "endDateString": "Sep 2025",
+    "startDateString": "Oct 2021"
+  }
+}
