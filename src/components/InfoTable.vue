@@ -10,15 +10,17 @@ const props = defineProps({
 
 const columns = computed(() => {
   const firstItem = props.source?.[0] ?? {}
-  return Object.keys(firstItem).map((key) => ({
-    key,
-    dataIndex: key,
-    title: key
-  }))
-  // .filter(({ key }) => {
-  //   const val = firstItem[key]
-  //   return !Array.isArray(val) || typeof val !== 'object' || typeof val !== 'boolean'
-  // })
+  return Object.keys(firstItem)
+    .filter((key) => {
+      const val = firstItem[key]
+      return !Array.isArray(val) && typeof val !== 'object' && typeof val !== 'boolean'
+    })
+    .sort((a, b) => a - b)
+    .map((key) => ({
+      key,
+      dataIndex: key,
+      title: key
+    }))
 })
 </script>
 
@@ -33,3 +35,9 @@ const columns = computed(() => {
     size="small"
   />
 </template>
+
+<style>
+.ant-table-wrapper .ant-table-thead > tr > th {
+  color: darkgrey;
+}
+</style>
