@@ -3,14 +3,24 @@ import { ref, onMounted } from 'vue'
 import dayjs from 'dayjs'
 
 const props = defineProps({
-  pending: Boolean,
-  filterOnMounted: Boolean
+  defaultDate: {
+    type: Object,
+    default: () => dayjs().subtract(7, 'days')
+  },
+  pending: {
+    type: Boolean,
+    default: false
+  },
+  filterOnMounted: {
+    type: Boolean,
+    default: false
+  }
 })
 
 const emit = defineEmits(['onFilter'])
 
 const format = 'YYYY-MM-DD'
-const date = ref(dayjs().subtract(7, 'days'))
+const date = ref(dayjs(props.defaultDate))
 
 const onFilter = () => emit('onFilter', date.value.format(format))
 
