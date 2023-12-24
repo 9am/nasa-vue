@@ -84,11 +84,11 @@ const emit = defineEmits(['onRefresh'])
     <slot></slot>
     <a-card class="base" hoverable>
       <template #title>
-        <div class="title">
-          <a-tag>ID: {{ detail?.id }}</a-tag>
-          <h3 :title="detail?.title">{{ detail?.title }}</h3>
-          <code>{{ detail?.startDateString }}-{{ detail?.endDateString }}</code>
-          <a-tag :color="statusColor">{{ detail?.statusDescription }}</a-tag>
+        <div class="info">
+          <a-tag class="id">ID: {{ detail?.id }}</a-tag>
+          <h3 class="title" :title="detail?.title">{{ detail?.title }}</h3>
+          <code class="date">{{ detail?.startDateString }}-{{ detail?.endDateString }}</code>
+          <a-tag class="status" :color="statusColor">{{ detail?.statusDescription }}</a-tag>
         </div>
       </template>
       <template #extra>
@@ -116,7 +116,7 @@ const emit = defineEmits(['onRefresh'])
 .project > * {
   margin: 2rem 0;
 }
-.title {
+.info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -124,20 +124,27 @@ const emit = defineEmits(['onRefresh'])
   gap: 1rem;
   padding: 1rem 0;
 }
-.in-list .title {
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 0;
-}
-h3 {
+.title {
   max-width: 50%;
   overflow: hidden;
   text-overflow: ellipsis;
   margin: 0;
 }
-.in-list h3 {
+.in-list .info {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+.in-list .title {
   max-width: 100%;
+}
+.in-list .date {
+  margin-left: auto;
+}
+.in-list .status {
+  min-width: 80px;
+  text-align: center;
 }
 fieldset:not(:nth-child(1)) {
   margin-top: 2rem;

@@ -17,6 +17,8 @@ const id = computed(() => +(props.id ?? params?.id))
 const detail = computed(() => map.value.get(id.value) ?? {})
 const inList = computed(() => props.id !== undefined)
 
+const DELAY = 100
+let timer
 let ctrl
 
 const onRefresh = async (id) => {
@@ -25,11 +27,16 @@ const onRefresh = async (id) => {
 }
 
 onMounted(() => {
-  if (store.itemNotReady(id.value)) {
-    onRefresh(id.value)
-  }
+  timer = setTimeout(() => {
+    if (store.itemNotReady(id.value)) {
+      onRefresh(id.value)
+    }
+  }, DELAY)
 })
 onUnmounted(() => {
+  if (timer) {
+    clearTimeout(timer)
+  }
   // cancel
   if (ctrl) {
     ctrl.abort()
